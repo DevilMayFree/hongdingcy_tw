@@ -1,0 +1,101 @@
+#download {
+  background-color: #E4EBF2;
+}
+
+#download .item {
+  margin: 20px 0;
+  background-color: #fff;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#download .item .top {
+  margin: 0 30px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#download .item .top h5 {
+  width: calc(100% - 100px);
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+#download .item .top img {
+  width: 30px;
+}
+
+#download .item .bottom {
+  margin: 0 30px;
+  padding: 20px 0;
+  border-top: 2px solid #16293F;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+#download .item .bottom.active {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#download .item .bottom .sub {
+  width: calc(50% - 20px);
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  #download .item .top h5 {
+    width: calc(100% - 60px);
+    font-size: 1.2rem;
+  }
+  #download .item .top img {
+    width: 20px;
+  }
+  #download .item .bottom .sub {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=download.css.map */

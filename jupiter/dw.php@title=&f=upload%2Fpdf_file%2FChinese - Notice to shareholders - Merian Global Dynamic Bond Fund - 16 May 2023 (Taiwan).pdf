@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel='profile' href="https://gmpg.org/xfn/11">
+<link rel="shortcut icon" href="img/jupiter-favicon-pos.ico"/>
+<link rel='canonical' href='https://www.cgsice.com/jupiter/Chinese%20-%20Notice%20to%20shareholders%20-%20Merian%20Global%20Dynamic%20Bond%20Fund%20-%2016%20May%202023%20(Taiwan).pdf' />
+<link rel='shortlink' href='' />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158766394-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158766394-1');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10972826232"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10972826232');
+</script>
+
+
+
+<script>
+    window.addEventListener('load',function()
+    {
+        document.querySelectorAll('a[href*="https://page.line.me/jupiter.tw"]').forEach(function(e)
+        {
+            e.addEventListener('click',function()
+            {
+                gtag('event', 'conversion', {'send_to': 'AW-10972826232/MRneCPaLq4sYEPiUoPAo'});
+            });
+    });
+});
+
+</script>
+
+
+<!-- Google Tag Manager -->
+<!-- End Google Tag Manager --></head>
+<body onload="get_file();">
+	<h1>檔案載入中請稍等...</h1>
+				<script type="text/javascript">
+			function get_file()
+			{
+				top.location.href='https://www.cgsice.com/jupiter/upload/pdf_file/Chinese - Notice to shareholders - Merian Global Dynamic Bond Fund - 16 May 2023 (Taiwan).pdf';
+			}
+		</script>
+		</body>
+</html>

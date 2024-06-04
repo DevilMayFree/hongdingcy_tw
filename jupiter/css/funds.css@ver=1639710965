@@ -1,0 +1,214 @@
+#funds .fund_item {
+  width: calc(33.3333% - 24px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border: #ccc 1px solid;
+  display: inline-block;
+  -webkit-transition: .25s;
+  -o-transition: .25s;
+  transition: .25s;
+  vertical-align: top;
+}
+
+#funds .fund_item:hover {
+  border: #16293F 1px solid;
+}
+
+#funds .fund_item .top {
+  min-height: 85px;
+  padding-bottom: 15px;
+  border-bottom: #ccc 1px solid;
+  /* min-height: 115px; */
+}
+
+#funds .fund_item .top h5 {
+  min-height: 80px;
+}
+
+#funds .fund_item .top small {
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+#funds .fund_item .top .supplement {
+  display: block;
+  min-height: 58px;
+}
+
+#funds .fund_item .detail_box {
+  padding-top: 20px;
+}
+
+#funds .fund_item .detail {
+  width: calc(27% - 5px);
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#funds .fund_item .detail:nth-child(2) {
+  width: calc(46% - 5px);
+}
+
+#funds .fund_item .detail p {
+  min-height: 62px;
+  margin-top: 5px;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1023px) {
+  #funds .fund_item {
+    width: calc(50% - 24px);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #funds .fund_item {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+#fund_title {
+  padding: 30px 0 50px;
+  background-color: #E4EBF2;
+}
+
+#fund_title .bread {
+  margin-bottom: 40px;
+}
+
+#fund_title .tag {
+  margin-bottom: 10px;
+  padding: 3px 10px;
+  display: inline-block;
+  color: #fff;
+  background-color: #DE3700;
+}
+
+#fund_info .text {
+  margin-bottom: 40px;
+}
+
+#fund_info .box_block {
+  margin-bottom: 30px;
+  padding: 30px 0;
+  border-top: 2px solid #16293F;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#fund_info .box_block .info {
+  width: 70%;
+}
+
+#fund_info .box_block .subbox {
+  margin: 0 -10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+#fund_info .box_block .subbox .sub {
+  width: calc(50% - 20px);
+  margin: 0 10px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+#fund_info .box_block .bankbox {
+  margin-top: 40px;
+}
+
+#fund_info .box_block .bankbox .toptext {
+  width: 100%;
+}
+
+#fund_info .box_block .bankbox p {
+  width: 120px;
+  margin: 5px 0;
+  display: inline-block;
+}
+
+#fund_info .box_block .dl {
+  width: calc(30% - 50px);
+  margin-left: 50px;
+}
+
+#fund_info .box_block .dl .dlbox {
+  margin-top: 20px;
+}
+
+#fund_info .box_block .dl .dlbox .sub {
+  padding: 7px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  align-items: center;
+}
+
+#fund_info .box_block .dl .dlbox .sub img {
+  width: 24px;
+}
+
+@media screen and (max-width: 1023px) {
+  #fund_info .box_block {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  #fund_info .box_block .info {
+    width: 100%;
+  }
+  #fund_info .box_block .dl {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #fund_info .box_block .subbox {
+    margin: 0;
+  }
+  #fund_info .box_block .subbox .sub {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+  }
+}
+/*# sourceMappingURL=funds.css.map */

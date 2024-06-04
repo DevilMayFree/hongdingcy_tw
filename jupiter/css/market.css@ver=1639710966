@@ -1,0 +1,52 @@
+#market .itembox {
+  margin-bottom: 50px;
+}
+
+#market .item {
+  padding: 30px;
+  border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#market .item .text {
+  margin: 0 50px;
+}
+
+#market .item .text h5 {
+  margin-bottom: 10px;
+}
+
+#market .item .text h5, #market .item .text p {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+#market .item .text img {
+  width: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  #market .item {
+    padding: 20px 0;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  #market .item .text {
+    width: 100%;
+    margin: 10px 0;
+  }
+  #market .item .text p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
+/*# sourceMappingURL=market.css.map */
